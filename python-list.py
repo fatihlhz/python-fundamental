@@ -14,3 +14,15 @@ for buku in list_buku:
 list_buku.append('Mink')
 for buku in list_buku:
     print(buku)
+
+# Cara ambil value berdasarkan index dan disimpan di temp.variabel
+buku1 = list_buku.pop(0)
+for buku in list_buku:
+    print(buku)
+
+print(buku1)
+
+# Cara hapus list di index tertentu
+del list_buku[0 : 2]
+for buku in list_buku:
+    print(buku)
